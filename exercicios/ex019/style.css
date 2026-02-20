@@ -7,14 +7,26 @@ body {
 
 h1#principal{
     text-align: center;
-    background-color: rgb(198, 52, 76);
+    background-color: rgb(245, 107, 130);
     color: white;
 }
 
 h1{
-    color: rgb(155, 30, 30);
+    color: rgb(245, 107, 130);
 }
 
 h2{
     color: rgb(165, 52, 114);
+}
+
+.basico{
+    color: rgb(87, 144, 87);
+}
+
+.intermediario{
+    color: rgb(207, 169, 65);
+}
+
+.avancado{
+    color: rgb(207, 65, 65);
 }
