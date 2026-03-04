@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: rgb(32, 212, 212);
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+
+        a::after {
+            content: ' ©';
+        }
+
+        .especial {
+            background-color: lightpink;
+            color: black;
+            /*O link não ficara com a cor preta se o mesmo já estiver sido visitado */
+        }
+
+        .especial::before {
+            content: '⇒ ' ;
+
+        }
+
+        .especial::after {
+            content: ' ⇐'
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links com CSS</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@Evelyncolacoo" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.instagram.com/evelyncolaco_">Instagram</a></li>
+        <li><a href="https://github.com/EvelynColaco">GitHub - Evelyn Colaço</a></li>
+        <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf">GitHub - Curso em Vídeo</a></li>
+        
+    </ul>
+</body>
+</html>
