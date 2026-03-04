@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        /*
+            CSS = HTML5 -->
+            #   = id (identificador único)
+            .   = classes (um ou mais elementos que possuem o mesmo estilo ou comportamento)
+            :   = pseudo-classes (estado de um determinado elemento)
+            ::  = pseudo-elemento (Muda parte do elemento)
+            >   = children (filho)
+        */
+        div {
+            display: inline-block; /*disposição dos blocos */
+            background-color: rgb(239, 158, 158);
+            border: 1px /*largura*/ solid /*tipo*/ black;
+            text-align: center;/*texto centralizado*/
+            height: 200px; /*largura do bloco*/
+            width: 200px; /*altura do bloco*/
+        }
+
+        div:hover {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+</body>
+</html>
