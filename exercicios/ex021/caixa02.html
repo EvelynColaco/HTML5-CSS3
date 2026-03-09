@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+
+        header{
+            background-color: lightgray;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            padding-right: 20px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .menu {
+            display: flex;
+        }
+
+        .ajuda {
+            margin-left: auto;
+        }
+
+        main {
+            background-color: lightgray ;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        main > section {
+            background-color: rgb(153, 153, 153);
+            margin: 10px;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: lightgray;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            
+            
+        }
+
+        footer > a {
+            color: black;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        footer > a:hover {
+            color: blue;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seja bem Vindo!</h1>
+        <nav class="menu">
+            <a href="#">Início</a>
+            <a href="#">Notícias</a>
+            <a href="#">Sobre</a>
+            <a href="#" class="ajuda">AJUDA</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Notícias</h2>
+            <article>
+                <h3>Informações do Mundo em 1 Minuto</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolores nisi nostrum quos quae error adipisci laborum aliquam numquam reprehenderit, molestias fugiat atque, ipsam at dolore ratione delectus est facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci natus iste quia maxime sunt exercitationem numquam iure laudantium ad. Temporibus pariatur ipsum sequi quibusdam itaque id vitae possimus. Ea, unde?</p>
+                <aside>Jornalista: João Pedro Galvão</aside>
+            </article>
+        </section>
+        <section>
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quos cupiditate fugiat recusandae iure, neque sint esse unde? Voluptatum perferendis voluptatibus corrupti dolore animi possimus sint tempora dolor tempore odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus inventore aliquam suscipit veniam incidunt exercitationem ad dolore! Corporis exercitationem, laudantium ad delectus illo dolorem. Alias laborum voluptatibus facere dignissimos consequuntur.</p>
+
+            <p>Visite nossa página em <a href="#">www.qualquercoisa.com.br</a> e fique por dentro de todas as notícias que rolam no mundo.</p>
+        </section>
+    </main>
+    <footer>
+        <h4>INFO24HORAS</h4>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Twiter</a>
+    </footer>
+</body>
+</html>
