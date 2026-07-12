@@ -1,0 +1,15 @@
+# Arquivos do macOS
+.DS_Store
+
+# Configurações do VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de sistema
+Thumbs.db
