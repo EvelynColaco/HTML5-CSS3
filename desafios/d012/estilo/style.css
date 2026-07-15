@@ -74,8 +74,21 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.368);
 }
 
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 5px;
 }
