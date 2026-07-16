@@ -15,13 +15,19 @@
             border-collapse: collapse;
         }
 
+        caption{
+            background-color: rgba(216, 112, 147, 0.724);
+            border: 1px solid black;
+            padding: 5px;
+        }
+        
         thead, tfoot{
-            background-color: rgba(128, 0, 128, 0.297);
-            color: purple;
+            background-color: rgba(0, 128, 0, 0.294);
+            color: rgb(53, 113, 53);
         }
 
         tbody{
-            background-color: rgba(0, 128, 0, 0.294);
+            background-color: rgba(128, 0, 128, 0.297);
         }
 
         th, td{
@@ -32,15 +38,18 @@
         .num{
             text-align: right;
         }
+
+
     </style>
 </head>
 <body>
     <h1>Tabelas Grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -67,8 +76,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total População</th>
-                <td class="num"><strong>22 774 669</strong></td>
+                <th scope="row">Total População</th>
+                <td scope="row" class="num"><strong>22 774 669</strong></td>
             </tr>
         </tfoot>
     </table>    
