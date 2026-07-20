@@ -9,7 +9,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
-            width: 500px;
+            width: 900px; 
             height: 100px;
             border-collapse: collapse;
             text-align: center;
@@ -17,6 +17,7 @@
         th, td{
             border: 1px solid black;
             padding: 10px;
+            
         }
 
         th{
@@ -28,34 +29,47 @@
         .csexo{
             background-color: rebeccapurple;
         }
+        div#content{
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <colgroup>
-            <col class="cnome">
-            <col class="csexo" span="2">
-        </colgroup>
-        <tr>
-            <th>Nome</th>
-            <th>Sexo</th>
-            <th>Idade</th>
-        </tr>
-        <tr>
-            <td>Pedro</td>
-            <td>M</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <td>Julia</td>
-            <td>F</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>Ana</td>
-            <td>F</td>
-            <td>30</td>
-        </tr>
-    </table>
+    <div id="content">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo" span="2">
+            </colgroup>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Estado</th>
+                <th>Aniversário</th>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Goiás</td>
+                <td>12.05</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>F</td>
+                <td>24</td>
+                <td>Amazonas</td>
+                <td>29.10</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>F</td>
+                <td>30</td>
+                <td>Pernanbuco</td>
+                <td>14.03</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
