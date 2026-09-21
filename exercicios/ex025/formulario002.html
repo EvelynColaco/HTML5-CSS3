@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Com Senha</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(226, 166, 166);
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário com senha</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+    <p>
+        <label for="iuser">Usuário:</label>
+        <input type="text" name="user" id="iuser" required maxlength="30" size="20" placeholder="Digite seu usuário" autocomplete="username">
+    </p>
+    <p>
+        <label for="isen">Senha:</label>
+        <input type="password" name="sen" id="isen" required minlength="8" maxlength="12" size="20" placeholder="Digite sua senha" autocomplete="current-password">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"> 
+    </p>
+    </form>
+</body>
+</html>
